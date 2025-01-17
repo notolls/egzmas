@@ -41,7 +41,7 @@ public class LineChartView extends View {
                 gap * 2, height - padding - consonants * scale,        // Priebalsės
                 gap * 3, height - padding - digits * scale             // Skaitmenys
         };
-
+ //
         // Linija tarp taškų
         paint.setColor(Color.BLUE);
         paint.setStrokeWidth(5f);
