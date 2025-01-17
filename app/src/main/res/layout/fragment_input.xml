@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Įveskite tekstą" />
+
+    <Button
+        android:id="@+id/button_bar_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stulpelinė diagrama" />
+
+    <Button
+        android:id="@+id/button_line_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linijinė diagrama" />
+
+    <Button
+        android:id="@+id/button_notify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Siųsti notifikaciją" />
+</LinearLayout>
